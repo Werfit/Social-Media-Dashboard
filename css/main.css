@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Inter";
+  box-sizing: border-box;
+}
+
+.wrapper {
+  dispaly: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.wrapper header {
+  display: flex;
+  flex-direction: column;
+  height: 20%;
+  padding: 3em 8em 0em 8em;
+}
+.wrapper header .info-and-mode {
+  display: flex;
+  align-items: center;
+}
+.wrapper header .info-and-mode > div {
+  flex: 1;
+}
+.wrapper header .info-and-mode > div.info {
+  line-height: 1.7em;
+  letter-spacing: 0.2em;
+}
+.wrapper header .info-and-mode > div.info h2.title {
+  font-weight: 700;
+}
+.wrapper header .info-and-mode > div.info p.followers {
+  font-weight: 600;
+  font-size: 14px;
+}
+.wrapper header .info-and-mode > div.mode {
+  font-weight: 500;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.wrapper header .info-and-mode > div.mode label.toggle {
+  display: inline-block;
+  position: relative;
+  margin: 0px 1em;
+  width: 60px;
+  height: 30px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.wrapper header .info-and-mode > div.mode label.toggle .circle {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 3px;
+  border-radius: 50%;
+}
+.wrapper header .networks-info {
+  transform: translateY(50%);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.wrapper header .networks-info .network {
+  padding: 2em 3em;
+  text-align: center;
+  width: 23%;
+  position: relative;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.wrapper header .networks-info .network::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 3px;
+  background: var(--background);
+}
+.wrapper header .networks-info .network .network-title {
+  margin: 1em 0px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper header .networks-info .network .network-title img.network-image {
+  width: 24px;
+  height: 24px;
+}
+.wrapper header .networks-info .network .network-title p.network-user-login {
+  padding: 0px 0px 0px 0.7em;
+  font-weight: 700;
+}
+.wrapper header .networks-info .network .network-title p.network-user-login::before {
+  content: "@";
+}
+.wrapper header .networks-info .network .followers {
+  padding: 2em 0px;
+  text-align: center;
+}
+.wrapper header .networks-info .network .followers .followers-number {
+  font-size: 54px;
+  font-weight: 700;
+}
+.wrapper header .networks-info .network .followers span {
+  text-transform: uppercase;
+  font-size: 12px;
+  text-align: center;
+}
+.wrapper header .networks-info .network .followers span span {
+  letter-spacing: 0.6em;
+}
+.wrapper header .networks-info .network .followers-change {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 12px;
+}
+.wrapper header .networks-info .network .followers-change.increase {
+  color: #1db489;
+}
+.wrapper header .networks-info .network .followers-change.decrease {
+  color: #dc414c;
+}
+.wrapper header .networks-info .network .followers-change img {
+  margin-right: 0.5em;
+}
+.wrapper .overview-container {
+  padding: 12em 8em 3em 8em;
+  letter-spacing: 0.2em;
+}
+.wrapper .overview-container .networks-overview {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 3em 0px;
+}
+.wrapper .overview-container .networks-overview .overview {
+  width: 23%;
+  display: flex;
+  flex-direction: column;
+  transition: 0.3s;
+  margin: 1em 0px;
+  padding: 1em 2em;
+  cursor: pointer;
+}
+.wrapper .overview-container .networks-overview .overview > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1em 0em;
+}
+.wrapper .overview-container .networks-overview .overview > div.overview-header p {
+  font-size: 14px;
+  font-weight: 700;
+}
+.wrapper .overview-container .networks-overview .overview > div.overview-header img {
+  width: 32px;
+  height: 32px;
+}
+.wrapper .overview-container .networks-overview .overview > div.overview-content p.amount {
+  font-size: 32px;
+  font-weight: 700;
+}
+.wrapper .overview-container .networks-overview .overview > div.overview-content p.change {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+}
+.wrapper .overview-container .networks-overview .overview > div.overview-content p.change.increase {
+  color: #1db489;
+}
+.wrapper .overview-container .networks-overview .overview > div.overview-content p.change.decrease {
+  color: #dc414c;
+}
+.wrapper .overview-container .networks-overview .overview > div.overview-content p.change img {
+  margin-right: 0.5em;
+}
+
+/*# sourceMappingURL=main.css.map */

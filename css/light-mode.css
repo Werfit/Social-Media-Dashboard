@@ -1,0 +1,51 @@
+.wrapper {
+  background: #fff;
+}
+.wrapper header {
+  background: #f5f7ff;
+}
+.wrapper header .info-and-mode .info h2.title {
+  color: #1e202a;
+}
+.wrapper header .info-and-mode .info p.followers {
+  color: #63687e;
+}
+.wrapper header .info-and-mode .mode {
+  color: #63687e;
+}
+.wrapper header .info-and-mode .mode label.toggle {
+  background: #aeb3cb;
+}
+.wrapper header .info-and-mode .mode label.toggle .circle {
+  background: #fff;
+  left: 3px;
+}
+.wrapper header .networks-info .network {
+  background: #f0f2fa;
+}
+.wrapper header .networks-info .network:hover {
+  background: #dee1ed;
+}
+.wrapper header .networks-info .network .network-title {
+  color: #63687e;
+}
+.wrapper header .networks-info .network .followers .followers-number {
+  color: #1e202a;
+}
+.wrapper header .networks-info .network .followers span {
+  color: #63687e;
+}
+.wrapper .overview-container {
+  color: #63687e;
+}
+.wrapper .overview-container .networks-overview .overview {
+  background: #f0f2fa;
+}
+.wrapper .overview-container .networks-overview .overview:hover {
+  background: #dee1ed;
+}
+.wrapper .overview-container .networks-overview .overview .overview-content p.amount {
+  color: #1e202a;
+}
+
+/*# sourceMappingURL=light-mode.css.map */

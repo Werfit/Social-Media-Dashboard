@@ -1,0 +1,62 @@
+$bg: hsl(230, 17%, 14%)
+$top_bg: hsl(232, 19%, 15%)
+$card_bg: hsl(228, 28%, 20%)
+$d_gray_text: hsl(228, 34%, 66%)
+$d_blue_text: hsl(0, 0%, 100%)
+$hover_effect: hsl(228, 20%, 40%)
+    
+.wrapper
+    background: $bg
+
+    header
+        background: $top_bg
+
+        .info-and-mode
+            .info
+                h2.title
+                    color: $d_blue_text
+                p.followers
+                    color: $d_gray_text
+
+            .mode
+                color: $d_gray_text
+                
+                label.toggle
+                    background: linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%))
+
+                    .circle
+                        background: $bg
+                        right: 3px
+
+        .networks-info
+            .network
+                background: $card_bg
+
+                &:hover
+                    background: $hover_effect
+
+                .network-title
+                    color: $d_gray_text
+
+                .followers
+                    .followers-number
+                        color: $d_blue_text
+
+                    span
+                        color: $d_gray_text
+
+    .overview-container
+        color: $d_gray_text
+
+        .networks-overview
+            .overview
+                background: $card_bg
+
+                &:hover
+                    background: $hover_effect
+
+                .overview-content
+                    p.amount
+                        color: $d_blue_text
+
+

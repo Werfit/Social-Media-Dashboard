@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Frontend Mentor</title>
+
+        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="./css/light-mode.css">
+        <link rel="stylesheet" href="./css/mobile.css">
+
+        <script src="./js/main.js"></script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header>
+                <div class="info-and-mode">
+                    <div class="info">
+                        <h2 class="title">Social Media Dashboard</h2>
+                        <p class="followers">Total followers: 23.004</p>
+                    </div>
+                    <div class="mode">
+                        Dark Mode:
+                        <label for="toggle-mode" class="toggle">
+                            <div class="circle"></div>
+                        </label>
+                        <input type="checkbox" id="toggle-mode" style="display: none" />
+                    </div>
+                </div>
+                <div class="networks-info">
+                    <div class="network" style="--background: hsl(208, 92%, 53%)">
+                        <div class="network-title">
+                            <img src="./img/icon-facebook.svg" alt="Facebook Icon" class="network-image">
+                            <p class="network-user-login">nathanf</p>
+                        </div>
+                        <div class="followers">
+                            <p class="followers-number">1987</p>
+                            <span>
+                                <span>follower</span>s
+                            </span>
+                        </div>
+                        <div class="followers-change increase">
+                            <img src="./img/icon-up.svg" alt="Followers Increase Icon" class="followers-change-icon">
+                            12 Today
+                        </div>
+                    </div>
+
+                    <div class="network" style="--background: hsl(203, 89%, 53%)">
+                        <div class="network-title">
+                            <img src="./img/icon-twitter.svg" alt="Twitter Icon" class="network-image">
+                            <p class="network-user-login">nathanf</p>
+                        </div>
+                        <div class="followers">
+                            <p class="followers-number">1044</p>
+                            <span>
+                                <span>follower</span>s
+                            </span>
+                        </div>
+                        <div class="followers-change increase">
+                            <img src="./img/icon-up.svg" alt="Followers Increase Icon" class="followers-change-icon">
+                            99 Today
+                        </div>
+                    </div>
+
+                    <div class="network" style="--background: linear-gradient(to left, hsl(37, 97%, 70%), hsl(329, 70%, 58%))">
+                        <div class="network-title">
+                            <img src="./img/icon-instagram.svg" alt="Instagram Icon" class="network-image">
+                            <p class="network-user-login">realnathanf</p>
+                        </div>
+                        <div class="followers">
+                            <p class="followers-number">11k</p>
+                            <span>
+                                <span>follower</span>s
+                            </span>
+                        </div>
+                        <div class="followers-change increase">
+                            <img src="./img/icon-up.svg" alt="Followers Increase Icon" class="followers-change-icon">
+                            1099 Today
+                        </div>
+                    </div>
+
+                    <div class="network" style="--background: hsl(348, 97%, 39%)">
+                        <div class="network-title">
+                            <img src="./img/icon-youtube.svg" alt="Youtube Icon" class="network-image">
+                            <p class="network-user-login">Nathan F.</p>
+                        </div>
+                        <div class="followers">
+                            <p class="followers-number">8239</p>
+                            <span>
+                                <span>follower</span>s
+                            </span> 
+                        </div>
+                        <div class="followers-change decrease">
+                            <img src="./img/icon-down.svg" alt="Followers Decrease Icon" class="followers-change-icon">
+                            144 Today
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="overview-container">
+                <h2>Overview - Today</h2>
+
+                <div class="networks-overview">
+                    <div class="overview">
+                        <div class="overview-header">
+                            <p>Page Views</p>
+                            <img src="./img/icon-facebook.svg" alt="Facebook Icon" class="overview-logo">
+                        </div>
+                        <div class="overview-content">
+                            <p class="amount">87</p>
+                            <p class="change increase">
+                                <img src="./img/icon-up.svg" alt="Increase" class="overview-change">
+                                3%
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="overview">
+                        <div class="overview-header">
+                            <p>Likes</p>
+                            <img src="./img/icon-facebook.svg" alt="Facebook Icon" class="overview-logo">
+                        </div>
+                        <div class="overview-content">
+                            <p class="amount">52</p>
+                            <p class="change decrease">
+                                <img src="./img/icon-down.svg" alt="Decrease" class="overview-change">
+                                2%
+                            </p>
+                        </div>
+                    </div>
+                    <div class="overview">
+                        <div class="overview-header">
+                            <p>Likes</p>
+                            <img src="./img/icon-instagram.svg" alt="Instagram Icon" class="overview-logo">
+                        </div>
+                        <div class="overview-content">
+                            <p class="amount">5462</p>
+                            <p class="change increase">
+                                <img src="./img/icon-up.svg" alt="Increase" class="overview-change">
+                                2257%
+                            </p>
+                        </div>
+                    </div>
+                    <div class="overview">
+                        <div class="overview-header">
+                            <p>Profile Views</p>
+                            <img src="./img/icon-instagram.svg" alt="Instagram Icon" class="overview-logo">
+                        </div>
+                        <div class="overview-content">
+                            <p class="amount">52k</p>
+                            <p class="change increase">
+                                <img src="./img/icon-up.svg" alt="Increase" class="overview-change">
+                                1375%
+                            </p>
+                        </div>
+                    </div>
+                    <div class="overview">
+                        <div class="overview-header">
+                            <p>Retweets</p>
+                            <img src="./img/icon-twitter.svg" alt="Twitter Icon" class="overview-logo">
+                        </div>
+                        <div class="overview-content">
+                            <p class="amount">87</p>
+                            <p class="change increase">
+                                <img src="./img/icon-up.svg" alt="Increase" class="overview-change">
+                                3%
+                            </p>
+                        </div>
+                    </div>
+                    <div class="overview">
+                        <div class="overview-header">
+                            <p>Likes</p>
+                            <img src="./img/icon-twitter.svg" alt="Twitter Icon" class="overview-logo">
+                        </div>
+                        <div class="overview-content">
+                            <p class="amount">507</p>
+                            <p class="change increase">
+                                <img src="./img/icon-up.svg" alt="Increase" class="overview-change">
+                                553%
+                            </p>
+                        </div>
+                    </div>
+                    <div class="overview">
+                        <div class="overview-header">
+                            <p>Likes</p>
+                            <img src="./img/icon-youtube.svg" alt="Youtube Icon" class="overview-logo">
+                        </div>
+                        <div class="overview-content">
+                            <p class="amount">107</p>
+                            <p class="change decrease">
+                                <img src="./img/icon-down.svg" alt="Decrease" class="overview-change">
+                                19%
+                            </p>
+                        </div>
+                    </div>
+                    <div class="overview">
+                        <div class="overview-header">
+                            <p>Total Views</p>
+                            <img src="./img/icon-youtube.svg" alt="Youtube Icon" class="overview-logo">
+                        </div>
+                        <div class="overview-content">
+                            <p class="amount">1407</p>
+                            <p class="change decrease">
+                                <img src="./img/icon-down.svg" alt="Decrease" class="overview-change">
+                                12%
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

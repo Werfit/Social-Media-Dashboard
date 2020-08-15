@@ -1,0 +1,61 @@
+$bg: #fff
+$top_bg: hsl(225, 100%, 98%)
+$card_bg: hsl(227, 47%, 96%)
+$d_blue_text: hsl(228, 12%, 44%)
+$white: hsl(230, 17%, 14%)
+$hover_effect: hsl(227, 30%, 90%)
+    
+.wrapper
+    background: $bg
+
+    header
+        background: $top_bg
+
+        .info-and-mode
+            .info
+                h2.title
+                    color: $white
+                p.followers
+                    color: $d_blue_text
+
+            .mode
+                color: $d_blue_text
+                
+                label.toggle
+                    background: hsl(230, 22%, 74%)
+
+                    .circle
+                        background: $bg
+                        left: 3px
+
+        .networks-info
+            .network
+                background: $card_bg
+
+                &:hover
+                    background: $hover_effect
+
+                .network-title
+                    color: $d_blue_text
+
+                .followers
+                    .followers-number
+                        color: $white
+
+                    span
+                        color: $d_blue_text
+
+    .overview-container
+        color: $d_blue_text
+
+        .networks-overview
+            .overview
+                background: $card_bg
+
+                &:hover
+                    background: $hover_effect
+
+                .overview-content
+                    p.amount
+                        color: $white
+

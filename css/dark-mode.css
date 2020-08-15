@@ -1,0 +1,51 @@
+.wrapper {
+  background: #1e202a;
+}
+.wrapper header {
+  background: #1f212e;
+}
+.wrapper header .info-and-mode .info h2.title {
+  color: white;
+}
+.wrapper header .info-and-mode .info p.followers {
+  color: #8b97c6;
+}
+.wrapper header .info-and-mode .mode {
+  color: #8b97c6;
+}
+.wrapper header .info-and-mode .mode label.toggle {
+  background: linear-gradient(to right, #378fe6, #3eda82);
+}
+.wrapper header .info-and-mode .mode label.toggle .circle {
+  background: #1e202a;
+  right: 3px;
+}
+.wrapper header .networks-info .network {
+  background: #252a41;
+}
+.wrapper header .networks-info .network:hover {
+  background: #525a7a;
+}
+.wrapper header .networks-info .network .network-title {
+  color: #8b97c6;
+}
+.wrapper header .networks-info .network .followers .followers-number {
+  color: white;
+}
+.wrapper header .networks-info .network .followers span {
+  color: #8b97c6;
+}
+.wrapper .overview-container {
+  color: #8b97c6;
+}
+.wrapper .overview-container .networks-overview .overview {
+  background: #252a41;
+}
+.wrapper .overview-container .networks-overview .overview:hover {
+  background: #525a7a;
+}
+.wrapper .overview-container .networks-overview .overview .overview-content p.amount {
+  color: white;
+}
+
+/*# sourceMappingURL=dark-mode.css.map */
